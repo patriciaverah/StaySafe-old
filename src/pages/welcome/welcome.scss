@@ -1,0 +1,16 @@
+page-welcome {
+
+    // Swipe small icons color in white
+    .swiper-pagination-bullet-active {
+        background: black;
+    }
+
+    // Image background
+    .bg-image {
+        background-image: url('assets/imgs/tallin.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+}

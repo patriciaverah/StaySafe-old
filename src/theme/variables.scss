@@ -1,3 +1,10 @@
+/*
+ *  App developed for the final modules in "Introduction to Mobile App
+ *  Design and Development" course @Laurea.
+ *  Author: Patricia Vera Hernández
+ *  Student number: 1106727
+ */
+
 // Ionic Variables and Theming. For more info, please see:
 // http://ionicframework.com/docs/theming/
 
@@ -34,10 +41,11 @@ $app-direction: ltr;
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary:    #488aff,
+  primary:    #222,
+  background: #A3A9F6,
   secondary:  #32db64,
   danger:     #f53d3d,
-  light:      #f4f4f4,
+  light:      #b1a6a6,
   dark:       #222
 );
 
@@ -86,3 +94,5 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+
+$text-input-highlight-color-valid: #000000;
